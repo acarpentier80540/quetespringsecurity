@@ -12,12 +12,12 @@ public class HelloWorldController {
     }
 
     @GetMapping("/avengers/assemble")
-    public String CHAMPION() {
+    public String champion() {
         return "Avengers... Assemble";
     }
 
     @GetMapping("/secret-bases")
-    public String DIRECTOR() {
+    public String director() {
         return "Biarritz" +
                 "Bordeaux" +
                 "La Loupe " +
